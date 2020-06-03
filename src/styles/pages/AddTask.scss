@@ -1,0 +1,27 @@
+.add__container {
+    padding: 30px 20px 0 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    .title__text {
+        color: $color-primary;
+        font-size: $font-size-4;
+    }
+    .add__input {
+        input {
+            border-bottom: 1px solid grey;
+            font-size: $font-size-4;
+            margin-top: 120px;
+        }
+    }
+    .chose {
+        color: $color-primary;
+    }
+}
+.add__task {
+    background-color: $color-primary;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

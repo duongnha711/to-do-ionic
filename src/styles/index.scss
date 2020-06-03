@@ -1,1 +1,4 @@
-@import "./../pages/Home.scss"
+@import "./bases/variables";
+@import "./pages/Home.scss";
+@import "./pages//Dashboard.scss";
+@import "./pages/AddTask.scss";
